@@ -1,0 +1,44 @@
+[
+  {
+    "name": "eth",
+    "rpc": "https://eth-mainnet.g.alchemy.com/v2/-g_Q9SW4IHAq4iq5iEnMgI9dlxc-c-Dj",
+    "chainid": "1",
+    "apiurl": "https://api.etherscan.com/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "Avalanche C",
+    "rpc": "https://avalanche-mainnet.infura.io/v3/8d4ca703ac784214bcc33bfd7643f31f",
+    "chainid": "43114",
+    "apiurl": "https://api.snowtrace.io/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "Goerli",
+    "rpc": "https://eth-goerli.g.alchemy.com/v2/自己补全",
+    "chainid": "5",
+    "apiurl": "https://api-goerli.etherscan.io/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "matic",
+    "rpc": "https://polygon-rpc.com/",
+    "chainid": "137",
+    "apiurl": "https://api.polygonscan.com/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "op",
+    "rpc": "https://mainnet.optimism.io",
+    "chainid": "10",
+    "apiurl": "https://api-optimistic.etherscan.io/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "bsc",
+    "rpc": "https://bsc-dataseed1.binance.org",
+    "chainid": "56",
+    "apiurl": "https://api.bscscan.com/api?module=contract&action=getsourcecode&address="
+  },
+  {
+    "name": "local",
+    "rpc": "http://127.0.0.1:8545",
+    "chainid": "1337",
+    "apiurl": "https://api.etherscan.com/api?module=contract&action=getsourcecode&address="
+  }
+]
